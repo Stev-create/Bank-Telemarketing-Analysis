@@ -1,0 +1,21 @@
+age,job,marital,education,default,month,campaign,pdays,poutcome,emp.var.rate,cons.price.idx,cons.conf.idx,euribor3m,nr.employed,y
+56,housemaid,married,basic.4y,no,may,1,Never contacted before,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
+57,services,married,high.school,unknown,may,1,Never contacted before,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
+37,services,married,high.school,no,may,1,Never contacted before,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
+40,admin.,married,basic.6y,no,may,1,Never contacted before,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
+56,services,married,high.school,no,may,1,Never contacted before,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
+45,services,married,basic.9y,unknown,may,1,Never contacted before,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
+59,admin.,married,professional.course,no,may,1,Never contacted before,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
+41,blue-collar,married,basic.9y,unknown,may,1,Never contacted before,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
+24,technician,single,professional.course,no,may,1,Never contacted before,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
+25,services,single,high.school,no,may,1,Never contacted before,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
+41,blue-collar,married,basic.9y,unknown,may,1,Never contacted before,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
+25,services,single,high.school,no,may,1,Never contacted before,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
+29,blue-collar,single,high.school,no,may,1,Never contacted before,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
+57,housemaid,divorced,basic.4y,no,may,1,Never contacted before,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
+35,blue-collar,married,basic.6y,no,may,1,Never contacted before,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
+54,retired,married,basic.9y,unknown,may,1,Never contacted before,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
+35,blue-collar,married,basic.6y,no,may,1,Never contacted before,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
+46,blue-collar,married,basic.6y,unknown,may,1,Never contacted before,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
+50,blue-collar,married,basic.9y,no,may,1,Never contacted before,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
+39,management,single,basic.9y,unknown,may,1,Never contacted before,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no

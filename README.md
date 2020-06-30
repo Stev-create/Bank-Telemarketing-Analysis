@@ -27,6 +27,6 @@ Dan untuk <b>bagian keempat</b>: saya menunjukkan feature importances, yang dima
 
 Sedangkan di <b>bagian kelima</b>: Karena tujuan akhir project ini juga membuat dashboard. Maka saya mencoba untuk melihat gambarannya, yang lengkapnya dapat dilihat di [notebook ini](https://github.com/Stev-create/Bank-Telemarketing-Analysis---ML-Classification/blob/master/notebook/6.%20Model%20Deployment%20(try).ipynb)
 
-
+## Result
 
 

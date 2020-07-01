@@ -44,6 +44,6 @@ Memang learning curve, terlihat terlalu besar 'penalty'nya. Namun model tidak me
 ![GitHub Logo](/images/2.png)
 ![GitHub Logo](/images/3.png)
 
-Untuk lebih lengkapnya, dapat dilihat di [notebook ini](http://github.com)
+Untuk lebih lengkapnya, dapat dilihat di [notebook ini](https://github.com/Stev-create/Bank-Telemarketing-Analysis---ML-Classification/blob/master/notebook/3.%20ML_Classifiation_Part_2%20(Hyperparamater%20Tuning).ipynb)
 
 

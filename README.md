@@ -31,20 +31,31 @@ Sedangkan di <b>bagian kelima</b>: Karena tujuan akhir project ini juga membuat 
 
 ### Evaluation Metrics
 
-Dikarenakan data termasuk kategori <i>highly-imbalanced</i>, maka evaluasi metrik utama pada project ini adalah f1_macro. Atau sebagai alternatif, orang lain mungkin juga ada yang meliha Matthews Correlation Coefficient sebagai evaluasi metrik utamanya karena saya menunjukkannya juga. Tapi f1_macro yang saya gunakan di project ini. 
+Dikarenakan data termasuk kategori <i>highly-imbalanced</i>, dan menurut saya ini juga permasalahan bisnis yang <i>highly-imbalanced</i>. Maka evaluasi metrik utama pada project ini adalah f1_macro. Atau sebagai alternatif, orang lain mungkin juga ada yang meliha Matthews Correlation Coefficient sebagai evaluasi metrik utamanya karena saya menunjukkannya juga. Tapi f1_macro yang saya gunakan di project ini. 
 
 
-| Classifier | Macro F1 Score | Macro Recall | precision (macro) | Matthews correlation coefficient| 
+| Classifier | Macro F1 Score | Macro Recall | Macro Precision | Matthews correlation coefficient| 
 |   :---:      |     :---:      |    :---:      |   :---:   |          :---: |
-| Logistic Regression   | 0.639009    |  	0.978571   | 0.706186   |  0.076753   |
-| Random Forest Classifier     | 0.827381       |  	0.992857     | 	0.709184  |  0.140283      |
-| Random Forest Classifier     | 0.827381       |  	0.992857     | 	0.709184  |  0.140283      |
-| XGBoost Classifier   | 0.820359    |  	0.978571   | 0.706186   |  0.076753   |
-| XGBoost Classifier   | 0.820359    |  	0.978571   | 0.706186   |  0.076753   |
+| Logistic Regression   | 0.639009    |  	0.604403   | 0.781723   |  0.343002   |
+| Random Forest Classifier  (experiment 1)   | 0.618911       |  	0.587297     | 	0.816189  |  0.332280      |
+| Random Forest Classifier  (experiment 2)   | 0.622705       |  	0.590151     | 	0.813908  |  0.336447      |
+| XGBoost Classifier  (experiment 1) | 0.648942    |  	0.611661   | 0.796106   |  0.363668   |
+| XGBoost Classifier (experiment 2) | 0.638802    |  	0.603841   | 0.787810   |  0.345753   |
+| Logistic Regression (with SMOTE)   | 0.683400    |  	0.738456   | 0.658925   |  0.389341   |
+| Random Forest Classifier  (experiment 1 with SMOTE)   | 0.700277       |  	0.745260     | 	0.680617  |  0.420733      |
+| Random Forest Classifier  (experiment 2 with SMOTE)   | 0.704133       |  	0.745017     | 	0.678390  |  0.416265      |
+| XGBoost Classifier  (experiment 1 with SMOTE) | 0.701783    |  	0.742834   | 0.678390   |  0.416265   |
+| XGBoost Classifier (experiment 2 with SMOTE) | 0.705274    |  	0.746266   | 0.681643   |  0.423000   |
+
+Model terbaik ada di antara, Random Forest Classifier  (experiment 2 with SMOTE)  dan XGBoost Classifier  (experiment 2 with SMOTE). Kemudian project ini masuk ke adjusting threshold yang dimana, saya lebih melihatnya dari segi bisnis. Dimana saya ingin model yang punya recall tinggi atau False Negative (FN) yang rendah. Dan pada akhirnya, threshold yang digunakan adalah 0.33 dengan Random Forest Classifier  (experiment 2 with SMOTE) adalah model terbaik. Ini precision-recall curve untuk model Random Forest Classifier  (experiment 2 with SMOTE):
+
+![GitHub Logo](/images/4.png)
+
+Sedangkan untuk model XGBoost Classifier  (experiment 2 with SMOTE) precision-recall curvenya dapat dilihat di [notebook ini](https://github.com/Stev-create/Bank-Telemarketing-Analysis---ML-Classification/blob/master/notebook/4.%20Adjusting%20threshold.ipynb)
 
 ### Final Model
 
-Model yang saya gunakan diakhir adalah Random Forest Classifier, dengan learning curve:
+Final Model yang saya gunakan diakhir adalah Random Forest Classifier dengan SMOTE, dengan learning curve:
 
 ![GitHub Logo](/images/1.png)
 

@@ -44,5 +44,6 @@ Memang learning curve, terlihat terlalu besar 'penalty'nya. Namun model tidak me
 ![GitHub Logo](/images/2.png)
 ![GitHub Logo](/images/3.png)
 
+Untuk lebih lengkapnya, dapat dilihat di [notebook ini](http://github.com)
 
 

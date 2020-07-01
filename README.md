@@ -33,6 +33,15 @@ Sedangkan di <b>bagian kelima</b>: Karena tujuan akhir project ini juga membuat 
 
 Dikarenakan data termasuk kategori <i>highly-imbalanced</i>, maka evaluasi metrik utama pada project ini adalah f1_macro. Atau sebagai alternatif, orang lain mungkin juga ada yang meliha Matthews Correlation Coefficient sebagai evaluasi metrik utamanya karena saya menunjukkannya juga. Tapi f1_macro yang saya gunakan di project ini. 
 
+
+| Classifier | Macro F1 Score | Macro Recall | precision (macro) | Matthews correlation coefficient| 
+|   :---:      |     :---:      |    :---:      |   :---:   |          :---: |
+| Logistic Regression   | 0.639009    |  	0.978571   | 0.706186   |  0.076753   |
+| Random Forest Classifier     | 0.827381       |  	0.992857     | 	0.709184  |  0.140283      |
+| Random Forest Classifier     | 0.827381       |  	0.992857     | 	0.709184  |  0.140283      |
+| XGBoost Classifier   | 0.820359    |  	0.978571   | 0.706186   |  0.076753   |
+| XGBoost Classifier   | 0.820359    |  	0.978571   | 0.706186   |  0.076753   |
+
 ### Final Model
 
 Model yang saya gunakan diakhir adalah Random Forest Classifier, dengan learning curve:

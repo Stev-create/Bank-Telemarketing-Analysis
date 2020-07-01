@@ -29,4 +29,20 @@ Sedangkan di <b>bagian kelima</b>: Karena tujuan akhir project ini juga membuat 
 
 ## Result
 
+### Evaluation Metrics
+
+Dikarenakan data termasuk kategori <i>highly-imbalanced</i>, maka evaluasi metrik utama pada project ini adalah f1_macro. Atau sebagai alternatif, orang lain mungkin juga ada yang meliha Matthews Correlation Coefficient sebagai evaluasi metrik utamanya karena saya menunjukkannya juga. Tapi f1_macro yang saya gunakan di project ini. 
+
+### Final Model
+
+Model yang saya gunakan diakhir adalah Random Forest Classifier, dengan learning curve:
+
+![GitHub Logo](/images/1.png)
+
+Memang learning curve, terlihat terlalu besar 'penalty'nya. Namun model tidak mengalami overfitting. Sedangkan untuk validation curvenya, saya hanya menunjukkan dua parameter yaitu max_depth dan min_samples_leaf
+
+![GitHub Logo](/images/2.png)
+![GitHub Logo](/images/3.png)
+
+
 

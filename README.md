@@ -43,7 +43,7 @@ Untuk lebih lengkapnya ada di [notebook ini](https://github.com/Stev-create/Bank
 
 ### Evaluation Metrics
 
-Dikarenakan data termasuk kategori <i>highly-imbalanced</i>, dan menurut saya ini juga permasalahan bisnis yang <i>highly-imbalanced</i>. Maka evaluasi metrik utama pada project ini adalah f1_macro. Atau sebagai alternatif, orang lain mungkin juga ada yang meliha Matthews Correlation Coefficient sebagai evaluasi metrik utamanya karena saya menunjukkannya juga. Tapi f1_macro yang saya gunakan di project ini. 
+Dikarenakan data termasuk kategori <i>highly-imbalanced</i>, dan menurut saya ini juga permasalahan bisnis yang <i>highly-imbalanced</i>. Maka evaluasi metrik objektif pada project ini adalah f1_macro. Atau sebagai alternatif, orang lain mungkin juga ada yang ingin melihat Matthews Correlation Coefficient sebagai evaluasi metrik utamanya karena saya menunjukkannya juga. Tapi f1_macro yang saya gunakan di project ini.  
 
 
 | Classifier | Macro F1 Score | Macro Recall | Macro Precision | Matthews correlation coefficient| 
@@ -58,6 +58,8 @@ Dikarenakan data termasuk kategori <i>highly-imbalanced</i>, dan menurut saya in
 | Random Forest Classifier  (experiment 2 with SMOTE)   | 0.704133       |  	0.745017     | 	0.678390  |  0.416265      |
 | XGBoost Classifier  (experiment 1 with SMOTE) | 0.701783    |  	0.742834   | 0.678390   |  0.416265   |
 | XGBoost Classifier (experiment 2 with SMOTE) | 0.705274    |  	0.746266   | 0.681643   |  0.423000   |
+
+Catatan : terdapat dua eksperimen di antara, Random Forest dan XGBoost dikarenakan hasil dari RandomizedSearchCV yang saya dapat masih mengalami overfitting. Jadi saya putuskan untuk mentuningnya ulang. 
 
 Model terbaik ada di antara, Random Forest Classifier  (experiment 2 with SMOTE)  dan XGBoost Classifier  (experiment 2 with SMOTE). Kemudian project ini masuk ke adjusting threshold yang dimana, saya lebih melihatnya dari segi bisnis. Dimana saya ingin model yang punya recall tinggi atau False Negative (FN) yang rendah. Dan pada akhirnya, threshold yang digunakan adalah 0.33 dengan Random Forest Classifier  (experiment 2 with SMOTE) adalah model terbaik. Ini precision-recall curve untuk model Random Forest Classifier  (experiment 2 with SMOTE):
 

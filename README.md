@@ -29,6 +29,18 @@ Sedangkan di <b>bagian kelima</b>: Karena tujuan akhir project ini juga membuat 
 
 ## Result
 
+### Bussiness Insight
+
+Dari eksplorasi dapat disimpulkan bahwa:
+
+1. Bank seharusnya target ke anak-anak muda yang masih berkuliah atau orang-orang tua yang sudah pensiun. Analisanya adalah anak-anak muda masih belum memilki banyak pengetahuan yang berurusan dengan investasi. Maka deposito akan menjadi alat investasi yang cocok untuk mereka, mengingat deposito memiliki resiko yang rendah. Begitu juga dengan orang-orang tua yang sudah pensiunan, deposito juga menjadi alat investasi yang cocok buat mereka, karena deposito punya resiko yang rendah. 
+
+2. Bulan maret menjadi bulan terbaik untuk mengontak nasabah-nasabah. Karena dalam [notebook ini](https://github.com/Stev-create/Bank-Telemarketing-Analysis---ML-Classification/blob/master/notebook/1.%20Data%20cleaning%20and%20exploratory%20analysis.ipynb), ditunjukkan bahwa tingkat kesuksesan tertinggi ada pada bulan maret. 
+
+3. Dari segi <i>socio-economics</i>, di dataset ini peluang orang-orang melakukan deposito lebih tinggi saat Euribor rendah, CCI rendah, CPI rendah, Jumlah pegawai bank rendah, dan tingkat variasi pada pegawai bank rendah. Sebetulnya ini dapat dijadikan diskusi, mengingat ternyata peluang orang-orang melakukan deposito lebih tinggi saat Euribor rendah. Kenapa? Karena Euribor adalah alat yang biasa dipakai bank untuk menentukan suatu suku bunga, suku bunga deposito maupun suku bunga pinjaman. Jadi terlihat adanya kejanggalan, melihat saat Euribor rendah yang artinya suku bunga deposito rendah, tapi malah peluang orang-orang melakukan deposito lebih tinggi saat Euribor merendah. 
+
+Untuk lebih lengkapnya ada di [notebook ini](https://github.com/Stev-create/Bank-Telemarketing-Analysis---ML-Classification/blob/master/notebook/1.%20Data%20cleaning%20and%20exploratory%20analysis.ipynb).
+
 ### Evaluation Metrics
 
 Dikarenakan data termasuk kategori <i>highly-imbalanced</i>, dan menurut saya ini juga permasalahan bisnis yang <i>highly-imbalanced</i>. Maka evaluasi metrik utama pada project ini adalah f1_macro. Atau sebagai alternatif, orang lain mungkin juga ada yang meliha Matthews Correlation Coefficient sebagai evaluasi metrik utamanya karena saya menunjukkannya juga. Tapi f1_macro yang saya gunakan di project ini. 

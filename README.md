@@ -69,7 +69,7 @@ Sedangkan untuk model XGBoost Classifier  (experiment 2 dengan SMOTE dataset) pr
 
 ### Final Model
 
-Final Model yang saya gunakan adalah Random Forest Classifier dengan SMOTE, dengan learning curve:
+Final Model yang saya gunakan adalah Random Forest Classifier dengan SMOTE dataset, dengan learning curve sebagai berikut:
 
 ![GitHub Logo](/images/1.png)
 

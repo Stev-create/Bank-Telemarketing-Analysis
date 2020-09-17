@@ -65,7 +65,7 @@ Model terbaik ada di antara Random Forest Classifier  (experiment 2 with SMOTE) 
 
 ![GitHub Logo](/images/4.png)
 
-Sedangkan untuk model XGBoost Classifier  (experiment 2 with SMOTE) precision-recall curvenya dapat dilihat di [notebook ini](https://github.com/Stev-create/Bank-Telemarketing-Analysis---ML-Classification/blob/master/notebook/4.%20Adjusting%20threshold.ipynb)
+Sedangkan untuk model XGBoost Classifier  (experiment 2 dengan SMOTE dataset) precision-recall curvenya dapat dilihat di [notebook ini](https://github.com/Stev-create/Bank-Telemarketing-Analysis---ML-Classification/blob/master/notebook/4.%20Adjusting%20threshold.ipynb)
 
 ### Final Model
 
